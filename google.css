@@ -1,0 +1,72 @@
+#logo > img {
+    display: block;
+    margin: auto;
+    padding-top: 15%;
+    padding-bottom: 2.4%;
+    width: auto;
+
+}
+
+input {
+  width: 45%;
+  height: 2em;
+  margin: auto;
+  display: block;
+  font-size: 16px;
+  font-family: arial, helvetica, sans-serif;
+
+
+}
+
+button {
+  background-color: #eee;
+  font-size: 13px;
+  border: none;
+  width: 135px;
+  height: 40px;
+  color: gray;
+  font-weight: bold;
+  position: relative;
+  left: 39%;
+  margin-top: 2.4%
+}
+
+#footer_bg {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  border: 1px solid #e7e7e7;
+
+}
+
+#footer ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    /*background-color: #333;*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+#footer li {
+  display: inline;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.floatleft {
+  float: left;
+
+
+}
+.floatright {
+  float: right;
+  padding-right: 15px;
+
+}
